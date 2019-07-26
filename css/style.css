@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff; 
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #222222;
+    font-family: Lato;
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-img {
+    margin-right: 13px;
+}
+
+.header-form {
+    display: flex;
+    align-items: center;
+}
+
+.button-header {
+   
+    }
+
+.button {
+    height: 38px;
+    background-color: #f16d7f;
+    display: block;
+    text-decoration: none;
+    padding-right: 19px;
+    padding-left: 19px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.form-input {
+    padding-left: 16px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu-link {
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.banner {
+    height: 614px;
+    background-color: #e8e8e8;
+}
+
+.banner-flex {
+    
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: url(../img/banner.jpg) 0 -51px;
+}
+
+    
+.banner-text-max {
+    color: #222222;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 43px;
+    margin-bottom: 20px;
+
+}
+
+.banner-text-mini {
+    color: #222222;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 33px;
+
+}
+
+.banner-text {
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
+
+.offer-big {
+    width: 560px;
+    height: 542px;
+    background-color: #ccc;
+    
+}
+
+.offer-mini {
+    width: 560px;
+    height: 261px;
+    background-color: #ccc;
+}
+.offer-big,
+.offer-mini {
+    display: flex;
+}
+
+.offer-flex {
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 99px;
+    padding-bottom: 99px;
+}
+
+.offer-flex > div > div:first-child {
+    margin-bottom: 20px;
+}
+
+.offer-text {
+    background-color: #ffffff;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    align-self: flex-start;
+    margin-top: 26px;
+    
+}
