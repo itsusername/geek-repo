@@ -1,14 +1,12 @@
 body {
     margin: 0;
 }
-
 /*стилизация 1 блока*/
 .container {
     width: 1280px;
     margin: 0 auto;
     border: 1px solid black;
 }
-
 .main-header {
     width: 100%;
     padding: 50px;
@@ -17,14 +15,12 @@ body {
     color: #fff;
     font-family: Arial;
 }
-
 .main-header:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
-
 .main-header-wrp {
     width: 458px;
     float: left;
@@ -37,7 +33,6 @@ line-height: 44px;
 font-weight: 400;
 color: #ffffff;
 }
-
 .main-header-list {
     padding: 0 0 0 0;
     margin: 50px 0 0 0;
@@ -45,14 +40,11 @@ color: #ffffff;
     line-height: 36px;
     font-weight: 400;
 }
-
 .main-header-list-item {
     list-style-type: none;
     position: relative;
-    padding-left: 36px;
-    
+    padding-left: 36px;   
 }
-
 .main-header-list-item:before {
     content: "";
     display: block;
@@ -63,31 +55,25 @@ color: #ffffff;
     position: absolute;
     top: 5px;
     left: 0px;
-
 }
-
 .main-header-img {
     display: block;
     width: 469px;
     min-height: 214px;
     float: right;
 }
-
 .content {
     width: 100%;
     font-family: Arial;
 
 }
-
 /*стилизация 2 блока*/
-
 .content-about-product {
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
     background-color: #fff;
     color: #445161;
-
 }
 .content-about-product:after {
     content: "";
@@ -95,7 +81,6 @@ color: #ffffff;
     width: 100%;
     clear: both;
 }
-
 .content-about-product-wrp {
     width: 650px;
     float: left;
@@ -112,8 +97,6 @@ color: #ffffff;
     font-size: 16px;
     line-height: 22px;
 }
-
-    
 .content-about-product-video {
     width: 430px;
     min-height: 250px;
@@ -124,8 +107,7 @@ color: #ffffff;
     background-color: #F5F5F5;
     color: #445161;
     padding: 50px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 .dignity:after {
     content: "";
@@ -141,7 +123,6 @@ color: #ffffff;
     font-weight: 400;
     text-align: center;
 }
-
 .dignity-and-pluses-wrp-left{
     float: left;
     width: 570px;
@@ -160,15 +141,12 @@ color: #ffffff;
 .digniti-and-pluses-list-item:nth-child(2) {
     margin: 35px 0 35px 0;
 }
-
 .digniti-and-pluses-list-item {
     list-style-type: none;
     position: relative;
     padding: 0 0 0 42px;
     line-height: 22px;
-    
 }
-
 .digniti-and-pluses-list-item:before {
     content: "";
     display: block;
@@ -181,9 +159,7 @@ color: #ffffff;
     position: absolute;
     top: 0px;
     left: 0px;
-
 }
-
 .screenshots {
     width: 100%;
     color: #445161;
@@ -216,15 +192,13 @@ color: #ffffff;
     content: "";
     display: block;
     width: 100%;
-    clear: both;
-    
+    clear: both;  
 }
 figcaption:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
-    
 }
 .screenshots-wrp-left {
     float: left;
@@ -237,17 +211,11 @@ figcaption:after {
     float: left;
     margin-right: 15px;
 }
-
-
 .screenshots-figcaption-description {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
-
 }
-
-
-
 .reviews-wrp {
     width: 100%;
     background-color: #F5F5F5;
@@ -257,10 +225,7 @@ figcaption:after {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
 }
-
-
 .reviews-title {
     width: 100%;
     margin: 0 0 35px 0;
@@ -279,14 +244,11 @@ figcaption:after {
     box-sizing: border-box;
 }
 
-
-
 .user-pic {
     background-image: url('../img/userpic.png'); 
     border-radius: 50%;
     width: 75px;
     height: 75px;
-    
 }
 .reviews-description {
     width: 430px;
@@ -299,7 +261,6 @@ figcaption:after {
     font-weight: 400;
     line-height: 22px;
 }
-
 .reviews-description:before {
     content: "";
     display: block;
@@ -309,7 +270,6 @@ figcaption:after {
     top: 35px;
     left: -26px;
 }
-
 .reviews-description-signature {
     display: block;
     margin: 5px 0 0 0;
@@ -321,7 +281,6 @@ figcaption:after {
     padding: 50px;
     box-sizing: border-box;
 }
-
 .buy-it-now-title {
     width: 100%;
     margin: 0 0 35px 0;
@@ -338,9 +297,6 @@ figcaption:after {
     background-color: #445161;
     box-sizing: border-box;    
     position: relative;
-    
-
-
 }
 
 .block-wrp {
@@ -352,9 +308,7 @@ figcaption:after {
     font-size: 30px;
     line-height: 28px;
     font-weight: 400;
-    
 }
-
 .price-title {
   display: block;
   width: 100%;
@@ -364,7 +318,6 @@ figcaption:after {
   box-sizing: border-box;
   text-transform: capitalize;
 }
-
 .price-txt {
   display: block;
   width: 100%;
@@ -418,18 +371,15 @@ figcaption:after {
     bottom: 20px;
     left: 20px;
 }
-
 .price-btn:hover {
   background-color: #445161;
   color: #fff;
   border: 1px solid #fff;
 }
-
 .price-btn:active {
   background-color: #fff;
   color: #445161;
 }
-
 .contacts {
     width: 100%;
     padding: 50px;
@@ -437,14 +387,11 @@ figcaption:after {
     background-color: #445161;
     color: #fff;
     font-family: Arial;
-
-
 }
 .contacts-wrp {
     display: flex;
     justify-content: center;
 }
-
 .contacts-title {
     display: block;
     width: 100%;
@@ -455,7 +402,6 @@ figcaption:after {
     text-align: center;
     box-sizing: border-box;
 }
-
 form {
     width: 505px;
     padding: 10px;
@@ -466,7 +412,6 @@ form {
     flex-direction: column;
     
 }
-
 input {
     margin: 0 0 10px 0;
     width: 450px;
@@ -476,7 +421,6 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 input:focus {
   border: 1px solid red;
 }
@@ -498,19 +442,15 @@ input[type="submit"] {
   background-color: #fff;
   text-transform: uppercase;
 }
-
 input[type="submit"]:hover {
   background-color: #ccc;
   color: #fff;
 }
-
 input[type="submit"]:active {
   background-color: #fff;
   color: #000;
 }
-.icons {
 
-}
 .icons-list {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
@@ -523,7 +463,6 @@ input[type="submit"]:active {
     position: relative;
     padding-left: 36px;
 }
-
 .icons-list-item:before {
     content: "";
     display: block;
@@ -534,5 +473,4 @@ input[type="submit"]:active {
     position: absolute;
     top: 5px;
     left: 0px;
-
 }
